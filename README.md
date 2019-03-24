@@ -50,8 +50,6 @@ PC Parts Picker - [https://pcpartpicker.com/list/y7bxBb](https://pcpartpicker.co
 * Need to boot with verbose
   * No idea on this one
 * Fan speeds in HWmonitor
-* all of my USB Ports
-   * Some are at USB2 speeds some are USB3 speeds
 * H100i_v2
   * When connected machine does not sleep
 
@@ -66,4 +64,4 @@ Started with the simple  [Vanilla Clover Config](https://hackintosh.gitbook.io/-
 Here is my full [Clover Config.plist](Clover_config.plist)
 
 ### Resources
-There were a lot of [resources] used, check that page for all of them. 
+There were a lot of [resources] used, check that page for all of them.
