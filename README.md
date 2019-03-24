@@ -64,4 +64,4 @@ Started with the simple  [Vanilla Clover Config](https://hackintosh.gitbook.io/-
 Here is my full [Clover Config.plist](Clover_config.plist.md)
 
 ### Resources
-There were a lot of [resources] used, check that page for all of them.
+There were a lot of [resources](Resources.md) used, check that page for all of them.
