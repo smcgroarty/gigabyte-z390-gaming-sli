@@ -24,7 +24,7 @@ MuiltiBeast Non-Working Items (for me):<br>
 None of this stuff was the fault of MultiBeast. MultiBeast is a way to make it easier for people to install OS X and it does that well enough.
 
 #### Fixing boot
-After some reading I went with
+Initially I had set the iGPU disabled in the bios, and then rebooted till the settings worked.
 
 #### Fixing the sound and sensors
 Installed the [AppleACL](https://github.com/acidanthera/AppleALC/releases) kext for Sound and [OS X Fake PCI](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/) for the sensors.
@@ -83,4 +83,4 @@ It is also important during this step to get your network situated. I have my on
 
 ### The Third Install
 After everything was setup in the second step, and the reinstall completed, I have not made any changes to the [clover.plist](Clover_config.plist.md).
-I think the only change I made in step 3 was removing all the extra stuff for USB that was no longer needed from the vanilla installer guide. 
+I think the only change I made in step 3 was removing all the extra stuff for USB that was no longer needed from the vanilla installer guide.
