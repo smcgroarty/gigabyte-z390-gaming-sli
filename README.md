@@ -61,7 +61,7 @@ PC Parts Picker - [https://pcpartpicker.com/list/y7bxBb](https://pcpartpicker.co
 
 ## Clover Configuations
 Started with the simple  [Vanilla Clover Config](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake) by [CorpNewt](https://www.reddit.com/user/corpnewt) but it kind of grew into its own thing<br>
-Here is my full [Clover Config.plist](Clover_config.plist)
+Here is my full [Clover Config.plist](Clover_config.plist.md)
 
 ### Resources
 There were a lot of [resources] used, check that page for all of them.
