@@ -39,9 +39,9 @@ See the [Benchmarks](Benchmarks.md) for the results<br>
 
 
 * CPU Core Voltage
-  * CPU VCore - 1.300v
+  * CPU VCore - 1.300V
   * BCLK Adaptive Voltage - Enabled
-  
+
 
 ### BIOS
  * Set the date and time
@@ -76,9 +76,9 @@ See the [Benchmarks](Benchmarks.md) for the results<br>
 ### Chipset
 * VT-D - Disabled
 * Internal Graphics - Enabled
-* DVMT Pre-allocated - 1024M
+* DVMT Pre-allocated - 128M
 * DVMT Total GXF Memory - 128M
-* Above 4G  Decoding - Disabled
+* Above 4G  Decoding - Enabled
 * Wake on LAN Enabled - Disabled
 
 
