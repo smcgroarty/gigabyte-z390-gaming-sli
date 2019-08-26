@@ -184,20 +184,6 @@
 			<key>XHCI</key>
 			<string>0x0</string>
 		</dict>
-		<key>Properties</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				AwCSPg==
-				</data>
-				<key>device-id</key>
-				<data>
-				kj4AAA==
-				</data>
-			</dict>
-		</dict>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -237,8 +223,6 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
@@ -270,67 +254,87 @@
 		<false/>
 		<key>KernelPm</key>
 		<true/>
-	</dict>
-	<key>RtVariables</key>
-	<dict>
-		<key>BooterConfig</key>
-		<string>0x28</string>
-		<key>CsrActiveConfig</key>
-		<string>0x67</string>
-		<key>MLB</key>
-		<string>C07XD0LMJYVX</string>
-		<key>ROM</key>
-		<string>UseMacAddr0</string>
-	</dict>
-	<key>SMBIOS</key>
-	<dict>
-		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>MM81.88Z.F000.B00.1809171422</string>
-		<key>Board-ID</key>
-		<string>Mac-7BA5B2DFE22DDD8C</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C07XD0LMJYVX</string>
-		<key>BoardType</key>
-		<integer>10</integer>
-		<key>BoardVersion</key>
-		<string>1.0</string>
-		<key>ChassisAssetTag</key>
-		<string>Mini-Aluminum</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>220.207.27.0.0</string>
-		<key>Family</key>
-		<string>Mac mini</string>
-		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
-		<key>Mobile</key>
-		<false/>
-		<key>PlatformFeature</key>
-		<string>0x02</string>
-		<key>ProductName</key>
-		<string>Macmini8,1</string>
-		<key>SerialNumber</key>
-		<string>C07XD0LMJYVX</string>
-		<key>SmUUID</key>
-		<string>0032519D-24BB-463C-869B-D40F7B873168</string>
-		<key>Version</key>
-		<string>1.0</string>
-	</dict>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>External icons patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RXh0ZXJuYWw=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleAHCIPort</string>
+				<key>Replace</key>
+				<data>
+				SW50ZXJuYWw=
+				</data>
+			</dict>
+		</array>
+		<key>RtVariables</key>
+		<dict>
+		  <key>BooterConfig</key>
+		  <string>0x28</string>
+		  <key>CsrActiveConfig</key>
+		  <string>0x67</string>
+		  <key>MLB</key>
+		  <string>C07XD0LMJYVX</string>
+		  <key>ROM</key>
+		  <string>UseMacAddr0</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+		  <key>BiosReleaseDate</key>
+		  <string>09/17/2018</string>
+		  <key>BiosVendor</key>
+		  <string>Apple Inc.</string>
+		  <key>BiosVersion</key>
+		  <string>MM81.88Z.F000.B00.1809171422</string>
+		  <key>Board-ID</key>
+		  <string>Mac-7BA5B2DFE22DDD8C</string>
+		  <key>BoardManufacturer</key>
+		  <string>Apple Inc.</string>
+		  <key>BoardSerialNumber</key>
+		  <string>C07XD0LMJYVX</string>
+		  <key>BoardType</key>
+		  <integer>10</integer>
+		  <key>BoardVersion</key>
+		  <string>1.0</string>
+		  <key>ChassisAssetTag</key>
+		  <string>Mini-Aluminum</string>
+		  <key>ChassisManufacturer</key>
+		  <string>Apple Inc.</string>
+		  <key>ChassisType</key>
+		  <string>0x09</string>
+		  <key>EfiVersion</key>
+		  <string>220.207.27.0.0</string>
+		  <key>Family</key>
+		  <string>Mac mini</string>
+		  <key>FirmwareFeatures</key>
+		  <string>0xFC0FE137</string>
+		  <key>FirmwareFeaturesMask</key>
+		  <string>0xFF1FFF3F</string>
+		  <key>LocationInChassis</key>
+		  <string>Part Component</string>
+		  <key>Manufacturer</key>
+		  <string>Apple Inc.</string>
+		  <key>Mobile</key>
+		  <false/>
+		  <key>PlatformFeature</key>
+		  <string>0x02</string>
+		  <key>ProductName</key>
+		  <string>Macmini8,1</string>
+		  <key>SerialNumber</key>
+		  <string>C07XD0LMJYVX</string>
+		  <key>SmUUID</key>
+		  <string>0032519D-24BB-463C-869B-D40F7B873168</string>
+		  <key>Version</key>
+		  <string>1.0</string>
+		</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>

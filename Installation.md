@@ -12,22 +12,6 @@ Let's go over some basics.
 
 It is recommended to skip MultiBeast all together and manually install Clover Boot Loader, and find the kexts you need but if you are reading this, then you are already beyond that point. From here on out, it requires that you know your hardware inside and out, so be warned there is no `simple solution` with the install.
 
-
-MuiltiBeast Non-Working Items (for me):<br>
-* Sound
-* USB 3.0
-* Sleep
-* iGPU
-* Sensors
-* Boot inconsistent  
-
-None of this stuff was the fault of MultiBeast. MultiBeast is a way to make it easier for people to install OS X and it does that well enough for older systems.
-
-
-
-#### Fixing boot
-Initially I had set the iGPU disabled in the bios, but still was unable to boot. After using the `OsxApitoFix-free2000` I was finally able to boot without issue.
-
 #### Fixing the sound
 Installed the [AppleALC](https://github.com/acidanthera/AppleALC/releases) kext for Sound
 Manually removed the installed kexts from default injected location if you are using Multibeast, sound should now work. <br>
@@ -37,10 +21,8 @@ Also by having the AppleALC as an injected kext on boot, it allows you to update
 This was as easy as unhooking the Corsair H100i_v2 from the USB header on the mainboard. I still have the header tucked away in the case since I redid the pins for connecting it to the single USB2 port on the mainboard, so the cable for this and the cable for the BCM94360CS2 share the same USB2 header.
 
 #### Fixing iGPU
-This one was a bit harder, after a bunch of reading I finally just copied the settings that were in the config.plist from cmer's build located [here](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh). The vanilla build steps really did not work for me and would not let me boot half the time. After making the changes everything work and things like Final Cut exports work a 1000x faster.
-
-
-**Update:** Removed the framebuffer-stolenmem settings in the `config.plist`, they were not needed once setting the `DVMT Pre-allocated` to 128MB
+** Updated **
+With the update for MacOS 10.16.5 there was no need to have the framebuffer added. Just enable the iGPU in the bios and because the 9600K is the same chip as the 2019 iMac it loads fine in the OS, and even removed the random video export glitches.
 
 
 #### Fixing USB
@@ -62,17 +44,16 @@ I don't know why everyone switched away from using clover/kexts/10.14 to clover/
 Kexts and downloads
 
 * AppleALC
-* FakeSMC_ACPISensors
-* FakeSMC_CPUSensors
-* FakeSMC_CPUSensors
-* FakeSMC_LPCSensors
-* FakeSMC_SMMSensors
-* FakeSMC
+* SMCBatteryManager
+* SMCLightSensor
+* SMCProcessor
+* SMCSuperIO
+* VirtualSMC
 * Lilu
 * USBPorts
 * WhateverGreen
 
-[All sensor]((https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/) <br>
+[All sensor](https://github.com/acidanthera/VirtualSMC) <br>
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) <br>
 [Lilu](https://github.com/acidanthera/Lilu/releases) <br>
 USBPorts - Made for this machine by [Hackintool](https://www.insanelymac.com/forum/topic/335018-hackintool-v204/) <br>
@@ -91,4 +72,4 @@ This part is up to you, the way my system is configured I choose a 18,3 iMac fro
 
 #### iMessages fix
 If you are using multiple network devices, and bluetooth counts as one, make sure your primary adapter is registered as `en0`, in my case it is my WIFI adapter. <br>
-If it is not registered as `en0` go into System Preferences > Network > and remove all the devices. Then add the one you want to register as your primary as `en0` and restart. Once you have rebooted go back into the Network Settings and add the rest of your devices back. `iMessages` should now work along with the App Store and Continuity and Hand Off 
+If it is not registered as `en0` go into System Preferences > Network > and remove all the devices. Then add the one you want to register as your primary as `en0` and restart. Once you have rebooted go back into the Network Settings and add the rest of your devices back. `iMessages` should now work along with the App Store and Continuity and Hand Off

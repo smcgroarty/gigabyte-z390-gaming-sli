@@ -1,6 +1,11 @@
 
 # Hackintosh Mojave Installation Documentation
-Primary reference for this guide was from Reddit [Vanilla Install Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake)
+Primary reference for this was from Reddit [Vanilla Install Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake)
+
+### Updated 8-26-19
+
+After six months of use, several updates (on version 10.14.6 now) there have been no major issues. Some of the minor issues are still there, like no fan speeds, and some other random issues, but overally it works pretty well and renders video faster than my macbook.
+
 
 ![alt text](images/AboutThisMac.png "About This Mac")
 
@@ -47,17 +52,14 @@ PC Parts Picker - [https://pcpartpicker.com/list/y7bxBb](https://pcpartpicker.co
 * iMessages
 
 #### Not Working
-* Need to boot with verbose
-  * No idea on this one
 * Fan speeds in HWmonitor
 * H100i_v2
-  * When connected machine does not sleep
+  * When connected machine does not sleep (not fixed, not even tested with updates.)
 
 #### Not Tested
 * HDMI Output from iGPU - I dont have a screen connected to the iGPU
 * File Vault
 * Netflix/Hulu/Prime
-* Headphones jack
 
 ## Clover Configuations
 Started with the simple  [Vanilla Clover Config](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake) by [CorpNewt](https://www.reddit.com/user/corpnewt) but it kind of grew into its own thing<br>
