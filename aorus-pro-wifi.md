@@ -85,217 +85,219 @@ IGP Ratio - Auto
 AVX Offset - 0 
 
 **Advanced CPU Settins  >**
-CPU Over Temperature Protection - 100 C 
-FCLK Frequency for Early Power On - 1GHz 
-Hyper-Threading Technology - Enabled
-No. of CPU Cores Enabled - 8 
-VT-D - Disabled 
-Intel(R) Speed Shift Technology - Enabled 
-CPU Thermal Monitor - Enabled 
-Ring to Core offset (Down Bin) - Diabled 
-CPU EIST Function - Enabled 
-Race To Halt (RTH) - Auto 
-Energy Efficient Turbo - Enabled 
-Voltage Optimization - Disable 
-Hardware Prefetcher - Auto 
-Adjacent Cache Line Prefetch - Auto 
-Intel(R) Turbo Boost Technology - Enable
-CPU Flex Ratio Override - Disable 
-~~CPU Flex Ratio Setting - 36~~ (Not Selectable)
-Frequency Clipping TVB - Auto 
-Voltage Reduction Initiated TVB - Auto 
-
-Active Turbo Ratios - Auto
-
-C-States Control - Disable 
-
-Turbo Power Limits - Enabled 
-Package Power Limit1 - TDP (Watts) - 255 
-Package Power Limit1 Time - 127 
-Package Power Limit2 - TDP (Watts) - 255 
-Package Power Limit2 Time - 127 
-Platform Power Limit1 (Watts) - 260 
-Platform Power Limit1 (Time) - 127
-Platform Power Limit2 (Watts) - 260 
-DRAM Power Limit1 (Watts) - Auto 
-DRAM Power Limit1 Time - Auto 
-DRAM Power Limit2 (Watts) - Auto 
-DRAM Power Limit2 Time - Auto 
-
-Turbo Per Core Limit Control - Disable 
-
+CPU Over Temperature Protection - 100 C <br>
+FCLK Frequency for Early Power On - 1GHz <br>
+Hyper-Threading Technology - Enabled<br>
+No. of CPU Cores Enabled - 8 <br>
+VT-D - Disabled <br>
+Intel(R) Speed Shift Technology - Enabled <br>
+CPU Thermal Monitor - Enabled <br>
+Ring to Core offset (Down Bin) - Diabled <br>
+CPU EIST Function - Enabled <br>
+Race To Halt (RTH) - Auto <br>
+Energy Efficient Turbo - Enabled <br>
+Voltage Optimization - Disable <br>
+Hardware Prefetcher - Auto <br>
+Adjacent Cache Line Prefetch - Auto <br>
+Intel(R) Turbo Boost Technology - Enable <br>
+CPU Flex Ratio Override - Disable <br>
+~~CPU Flex Ratio Setting - 36~~ (Not Selectable)<br>
+Frequency Clipping TVB - Auto <br>
+Voltage Reduction Initiated TVB - Auto <br>
+<br>
+Active Turbo Ratios - Auto<br>
+<br>
+C-States Control - Disable <br>
+<br>
+Turbo Power Limits - Enabled <br>
+Package Power Limit1 - TDP (Watts) - 255 <br>
+Package Power Limit1 Time - 127 <br>
+Package Power Limit2 - TDP (Watts) - 255 <br>
+Package Power Limit2 Time - 127 <br>
+Platform Power Limit1 (Watts) - 260 <br>
+Platform Power Limit1 (Time) - 127<br>
+Platform Power Limit2 (Watts) - 260 <br>
+DRAM Power Limit1 (Watts) - Auto <br>
+DRAM Power Limit1 Time - Auto <br>
+DRAM Power Limit2 (Watts) - Auto <br>
+DRAM Power Limit2 Time - Auto <br>
+<br>
+Turbo Per Core Limit Control - Disable <br>
+<br>
 **< Back to Tweaker Main Page** 
 
-Extreme Memory Profile (X.M.P.) - Profile1 (DDR4-3000 16-18-18-36-70-1.35)
-System Mmory Multipler - Auto 
-Memory Ref Clock - Auto 
-Memord Odd Ratio (100/133 or 200/266) - Auto 
-
+Extreme Memory Profile (X.M.P.) - Profile1 (DDR4-3000 16-18-18-36-70-1.35)<br>
+System Mmory Multipler - Auto <br>
+Memory Ref Clock - Auto <br>
+Memord Odd Ratio (100/133 or 200/266) - Auto <br>
+<br>
 **Adcanced Memory Settings >**
-Memory Multiplier Tweaker - Auto
-Channel InterLeaving - Auto 
-Rank Interleaving - Auto 
-Memory Boot Mode - Auto 
-Realtime Memory Timing - Auto 
-Memory Enhancements Settings - 
-
-SPD Info - view Memory settings 
-
-Memory Channels Time > All Set to Auto 
-
+Memory Multiplier Tweaker - Auto<br>
+Channel InterLeaving - Auto <br>
+Rank Interleaving - Auto <br>
+Memory Boot Mode - Auto <br>
+Realtime Memory Timing - Auto<br> 
+Memory Enhancements Settings - <br>
+<br>
+SPD Info - view Memory settings <br>
+<br>
+Memory Channels Time > All Set to Auto <br>
+<br>
 **< Back to Tweaker Main Page** 
 
-CPU Vcore - Normal 
-Dynamic vCore (DVID) - +0.020 
-SVID Offset - Disable 
-BLCK Adaptive Voltage - Auto 
-CPU Graphics Voltage(VAXG) - Auto 
-DRAM Voltage (CH A/B) - Auto 
-CPU VCCIO Voltage - Auto 
-CPU System Agent Voltage - Auto 
-VCC Sustained Voltage - Auto 
-VCCPLL - Auto 
-VCCPLL OC - Auto 
-PCH Core - Auto 
+CPU Vcore - Normal <br>
+Dynamic vCore (DVID) - +0.020 <br>
+SVID Offset - Disable <br>
+BLCK Adaptive Voltage - Auto <br>
+CPU Graphics Voltage(VAXG) - Auto <br>
+DRAM Voltage (CH A/B) - Auto <br>
+CPU VCCIO Voltage - Auto <br>
+CPU System Agent Voltage - Auto <br>
+VCC Sustained Voltage - Auto <br>
+VCCPLL - Auto <br>
+VCCPLL OC - Auto <br>
+PCH Core - Auto <br>
+<br>
 **Advanced Voltage Setttings >**
-RING PLL Ovevoltage (+mV) - Auto 
-GT PLL Overvoltage (+mV) - Auto 
-SA PLL Overvoltage (+mV) - Auto 
-MC PLL Overvoltage (+mV) - Auto 
-DRAM Training Voltage (CH A/B) - Auto
-DDRVPP Voltage (CH A/B) - Auto
-DRAM Termination (CH A/B) - Auto 
+RING PLL Ovevoltage (+mV) - Auto <br>
+GT PLL Overvoltage (+mV) - Auto <br>
+SA PLL Overvoltage (+mV) - Auto <br>
+MC PLL Overvoltage (+mV) - Auto <br>
+DRAM Training Voltage (CH A/B) - Auto<br>
+DDRVPP Voltage (CH A/B) - Auto<br>
+DRAM Termination (CH A/B) - Auto <br>
+<br>
 **CPU/VRM Settings >**
-CPU Internal AC/DC Load Line - Power Saving 
-CPU Vcore LoadLine Calibration - Medium
-
+CPU Internal AC/DC Load Line - Power Saving <br>
+CPU Vcore LoadLine Calibration - Medium<br>
+<br>
 **Internal Control >*
-I have not modified anything in here, and do not want to type all the settings out 
-
+I have not modified anything in here, and do not want to type all the settings out <br>
+<br>
 #### Settings 
 ##### Platform Power
-Platform Powr Management - Disabled 
-AC Back - Always Off (Your Choice here)
-ErP - Off 
-Soft-Off by PWR-BTTN - Instant-Off
-Resume By Alarm - Disable 
-Power Loading - Auto 
-CEC 2019 Ready - Disable 
-RC6(Render Standby) - Enabled
+Platform Powr Management - Disabled <br>
+AC Back - Always Off (Your Choice here)<br>
+ErP - Off <br>
+Soft-Off by PWR-BTTN - Instant-Off<br>
+Resume By Alarm - Disable <br>
+Power Loading - Auto <br>
+CEC 2019 Ready - Disable <br>
+RC6(Render Standby) - Enabled<br>
  
 ##### IO Ports 
- Initial Display Output - PCIe 1 Slot
- Internal Graphics - Enabled
- DVMT Pre-Allocated - 64M
- DVMT Total Gfx Mem - 128M 
- Aperture Size - 256MB
- Wi-Fi - Disabled
- Audio Controller - Enabled
- Above 4G Decoding - Enabled 
- Resize BAR Support - Disabled (This is new and I do not have NVidia graphics)
- PCH Lan Controller - Enabled 
- Wake on LAN Enable - Disable 
- IOAPIC 240119 Entries - Disabled 
+ Initial Display Output - PCIe 1 Slot<br>
+ Internal Graphics - Enabled<br>
+ DVMT Pre-Allocated - 64M<br>
+ DVMT Total Gfx Mem - 128M <br>
+ Aperture Size - 256MB<br>
+ Wi-Fi - Disabled<br>
+ Audio Controller - Enabled<br>
+ Above 4G Decoding - Enabled <br>
+ Resize BAR Support - Disabled (This is new and I do not have NVidia graphics)<br>
+ PCH Lan Controller - Enabled <br>
+ Wake on LAN Enable - Disable <br>
+ IOAPIC 240119 Entries - Disabled <br>
 
  **USB Configuration >**
- Legacy USB Supprot - Enabled
- XHCI Hand-off - Enabled
- USB Mass Storage Driver Support - Enableed
- Port 60/64 Emulation - Disabled 
-
+ Legacy USB Supprot - Enabled<br>
+ XHCI Hand-off - Enabled<br>
+ USB Mass Storage Driver Support - Enableed<br>
+ Port 60/64 Emulation - Disabled <br>
+<br>
  **Network Stack Configuration >**
- Network Stack - Enabled
- Ipv4 PXE Support - Disabled 
- Ipv4 HTTP Support - Disabled 
- Ipv6 PXE Supprot - Diabled 
- Ipv6 HTTP Support - Disabled 
- IPSEC Certificate - Enabled 
+ Network Stack - Enabled <br>
+ Ipv4 PXE Support - Disabled <br>
+ Ipv4 HTTP Support - Disabled <br>
+ Ipv6 PXE Supprot - Diabled <br>
+ Ipv6 HTTP Support - Disabled <br>
+ IPSEC Certificate - Enabled <br>
 
-PXE boot wait time 0
-Media Detect Count - 1
+PXE boot wait time 0<br>
+Media Detect Count - 1<br>
 
 **NVMe Configuration >**
-Shows NVMe Drives in computers, nothing modifiable 
+Shows NVMe Drives in computers, nothing modifiable <br>
 
 **SATA and RST Configuration >** 
-SATA Controller(s) - Enable 
-SATA Mode Selection - AHCI 
-Agressive LPM Support Disable 
+SATA Controller(s) - Enable <br>
+SATA Mode Selection - AHCI <br>
+Agressive LPM Support Disable <br>
 
-Everything else is the SATA Ports and what is connected to them 
-Can disable ports or drives here 
+Everything else is the SATA Ports and what is connected to them <br>
+Can disable ports or drives here <br>
 
 **EZ RAID >**
-Requires reboot to access RAID controller, no RAID in this system 
+Requires reboot to access RAID controller, no RAID in this system <br>
 
 **Intel(R) Ethernet Connection (7) I219-V >**
-Network configuration, good at leaving default unless troubleshooting 
+Network configuration, good at leaving default unless troubleshooting <br>
 
 ##### Miscellaneous
-LEDs in System Power On State - Off 
-LEDs in Sleep, Hibernation, and Soft Off state - Off
-Intel Platform Trust Technology (PTT) - Disabled 
-Software Guard Extentions (SGX) - Disabled 
-Max Link Speed - Auto 
-3DMark01 Enhancement - Disable 
+LEDs in System Power On State - Off <br>
+LEDs in Sleep, Hibernation, and Soft Off state - Off<br>
+Intel Platform Trust Technology (PTT) - Disabled <br>
+Software Guard Extentions (SGX) - Disabled <br>
+Max Link Speed - Auto <br>
+3DMark01 Enhancement - Disable <br>
 
 **Trusted Computing >** 
-Secutiry Device Support - Disabled 
+Secutiry Device Support - Disabled <br>
 
 ##### PC Health Status 
-Reset Case Open Status - Disabled 
-Nothing else configurable 
+Reset Case Open Status - Disabled <br>
+Nothing else configurable <br>
 
 ##### Smart Fan 5 
-You are on your own for setting your own fan curves here.
+You are on your own for setting your own fan curves here.<br>
 
 ### System Info 
-Not covered here 
+Not covered here <br>
 
 ### Boot 
-Boot
-Bootup NumLock State - On 
-CFG Lock - Enabled 
-Security Option - System 
-Full Screen LOGO Show - Enabled 
+Boot<br>
+Bootup NumLock State - On <br>
+CFG Lock - Enabled <br>
+Security Option - System <br>
+Full Screen LOGO Show - Enabled <br>
 
-Boot Option Priorities 
-Boot Option 1 - UEFI OS 
-Boot Option 2 - Windows Boot Manager 
+Boot Option Priorities <br>
+Boot Option 1 - UEFI OS <br>
+Boot Option 2 - Windows Boot Manager<br> 
 
-Fast Boot - Disabled 
+Fast Boot - Disabled <br>
 
-Mouse Speed - 2X
+Mouse Speed - 2X<br>
 
-Windows 8/10 Features - Windows 8/10 
-CSM Support - Disabled 
+Windows 8/10 Features - Windows 8/10 <br>
+CSM Support - Disabled <br>
 
-Administrator Password > 
-User Password > 
+Administrator Password > <br>
+User Password > <br>
 
 **Secure Boot >** 
-Secure Boot Enable - Disabled 
+Secure Boot Enable - Disabled <br>
 
-Secure Boot Mode - Custom 
-Restore Factory Keys > 
+Secure Boot Mode - Custom <br>
+Restore Factory Keys > <br>
 
 **Key Managment >**
-Provision Factory Defaults - Disabled 
-Everything else should Read 0| No Keys 
+Provision Factory Defaults - Disabled <br>
+Everything else should Read 0| No Keys <br>
 
 **<< Back to BOOT tab** 
 
-Preferred Operating Mode - Auto 
+Preferred Operating Mode - Auto <br>
 
 ### Save and Exit 
-Save & Exit Setup
-Exit Without Saving 
+Save & Exit Setup<br>
+Exit Without Saving <br>
 
-Load Optimized Defaults 
+Load Optimized Defaults <br>
 
-Boot Override 
-Windows Boot Manager 
-UEFI OS 
+Boot Override <br>
+Windows Boot Manager <br>
+UEFI OS <br>
 
-**SAVE PROFILE** - Save what you just changed and test 
-**Load Profiles** - Load last configuration changes if something went wrong 
+**SAVE PROFILE** - Save what you just changed and test <br>
+**Load Profiles** - Load last configuration changes if something went wrong <br>
