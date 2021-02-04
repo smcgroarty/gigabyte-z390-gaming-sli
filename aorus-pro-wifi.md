@@ -1,11 +1,11 @@
 ##  Aorus Z390 Pro Wifi 
 #### Warning 
-These are the settings I have made, The **Advanced CPU Options** are for my overclod on my CPU, they can all be left to Auto and let the BIOS handle all things with no overclocking.
-I am at 4.9Ghz and under 1.3V for VCore. I do not have issues with heat, my temps under extreme workload (Prime95 hit 92c) and under normal work loads I don't see 70c (Exporting 4k video, picture editing, gaming)
-I do not overclock the RAM and all settings are just with XMP Enabled. 
-I have tested 5.1GHz and that was way to hot once load was applied (hit 100c quickly).
-Tested 5GHz and under load it is at 95c with Vcore spiking to 1.42V, but I think a better air flow case would lower temps 
-There is a noticable and benchmarkable improvement from stock settings to 4.9GHz on all core, but your mileage may vary. 
+These are the settings I have made, The **Advanced CPU Options** are for my overclod on my CPU, they can all be left to Auto and let the BIOS handle all things with no overclocking. <br>
+I am at 4.9Ghz and under 1.3V for VCore. I do not have issues with heat, my temps under extreme workload (Prime95 hit 92c) and under normal work loads I don't see 70c (Exporting 4k video, picture editing, gaming) <br>
+I do not overclock the RAM and all settings are just with XMP Enabled. <br>
+I have tested 5.1GHz and that was way to hot once load was applied (hit 100c quickly). <br>
+Tested 5GHz and under load it is at 95c with Vcore spiking to 1.42V, but I think a better air flow case would lower temps <br>
+There is a noticable and benchmarkable improvement from stock settings to 4.9GHz on all core, but your mileage may vary. <br>
 
 ##### Hardware Configuration 
 My hardware is: 
